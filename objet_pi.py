@@ -1,4 +1,4 @@
-import math
+import math #for error estimation
 
 def euler():
     global e
@@ -70,6 +70,6 @@ class Pi(object):
         print("// Méthode des trapèzes // ")
         print("Estimation de l'aire : ", x.atrapz())
         print("Estimation de l'erreur (%): ", x.etrapz())
-x = Pi(2,2)
+x = Pi(3,99999)
 x.affichmil()
 x.affichtrapz()
